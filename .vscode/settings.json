@@ -1,0 +1,12 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+"prettier.requireConfig": true,
+"editor.formatOnSave": true,
+"editor.tabSize": 4,
+"editor.wordWrap": "on",
+"editor.fontFamily":" 'Fira Code', Consolas, 'Courier New', monospace",
+"editor.fontSize": 13
+}
