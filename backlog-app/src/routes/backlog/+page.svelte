@@ -321,9 +321,8 @@
 	];
 </script>
 
-<div class="wrapper px-14 py-10">
-	<h1>Backlog Page</h1>
-	<div class="cards-container flex flex-row flex-wrap gap-5">
+<div class="wrapper bg-neutral-800 px-14 py-10">
+	<div class="cards-container flex flex-row flex-wrap gap-10">
 		{#each games as game (game.id)}
 			<Card {game} />
 		{/each}
