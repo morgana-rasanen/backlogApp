@@ -321,8 +321,8 @@
 	];
 </script>
 
-<div class="wrapper bg-neutral-800 px-14 py-10">
-	<div class="cards-container flex flex-row flex-wrap gap-10">
+<div class="wrapper bg-neutral-800 px-10 py-10">
+	<div class="cards-container flex flex-row flex-wrap justify-center gap-10 align-middle">
 		{#each games as game (game.id)}
 			<Card {game} />
 		{/each}
