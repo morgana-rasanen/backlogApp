@@ -321,7 +321,7 @@
 	];
 </script>
 
-<div class="cards-container flex flex-row flex-wrap justify-center gap-10 align-middle">
+<div class="cards-container flex flex-row flex-wrap justify-center gap-8 align-middle">
 	{#each games as game (game.id)}
 		<Card {game} />
 	{/each}

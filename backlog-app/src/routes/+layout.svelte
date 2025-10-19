@@ -15,7 +15,9 @@
 <div class="top-14 mt-14">
 	<div class="flex overflow-hidden">
 		<Sidebar />
-		<div class="page-content ml-52 h-[92vh] overflow-y-scroll bg-neutral-800 p-10">
+		<div
+			class="page-content -mb-14 ml-52 h-screen w-screen overflow-y-scroll bg-neutral-900 px-8 py-10"
+		>
 			{@render children?.()}
 		</div>
 	</div>
