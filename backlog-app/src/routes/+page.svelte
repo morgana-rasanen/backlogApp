@@ -1,1 +1,1 @@
-<h1> Welcome to my backlog app!</h1>
+<div>Home page</div>
